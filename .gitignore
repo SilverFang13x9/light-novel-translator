@@ -1,0 +1,37 @@
+# Conteúdo de obras (NUNCA subir — material protegido por direitos autorais)
+*.epub
+*.pdf
+*.glossario.txt
+*.memoria.txt
+*.aprendido.txt
+*_traduzido*.txt
+traduzidos/
+
+# Livros de teste em texto puro (mantenha fora do repo; libere exceções com !)
+Livro*.txt
+*.jp.txt
+
+# Pastas de sagas/livros (adicione aqui as suas)
+sagatate/
+
+# Configuração com chave de API (segredo — NUNCA subir)
+api.json
+
+# Estado local do usuário e caches
+settings.json
+*.cache.json
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
